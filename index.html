@@ -1,0 +1,58 @@
+<!-- Pertama-tama membuat folder dengan nama Novi Selviani_SKEMA_JUNIOR_PROGRAMMER_2021_10_01 -->
+<!-- Kemudian buat 3 file yaitu file html,css, dan JavaScript. Ketiga file tersebut berfungsi dalam proses pembuatan kalkulator -->
+<!-- Tambahkan struktur dasar HTML ke index.html-->
+<!DOCTYPE> <!-- Deklarasi DOCTYPE -->
+<html> <!-- Deklarasi <html> -->
+    <head> <!-- Deklarasi <head> -->
+        <meta charset="utf-8"> <!-- Menambahkan character encoding, judul dan link ke file css yang diperlukan -->
+        <title>Calculator</title>
+        <link rel="stylesheet" href="stylesheet.css"> <!-- Menambahkan link rel="stylesheet". Hal ini berfungsi untuk menghubungkan code index.html dengan
+        code #stylesheet.css -->
+    </head>
+    <body> <!-- Deklarasi <body> -->
+        <div class="calculator"> <!-- menambahkan tag <div> dengan class "calculator". Hal ini bertujuan untuk mengelompokkan elemen-elemen
+            menjadi suatu grup yaitu claculator -->
+            <input type="text" class="calculator-screen" value="0" disabled/> <!-- Menambahkan tag <input> dengan class "calculator
+                screen" dan tag <div> dengan "calculator-keys" di dalam class "calculator" -->
+                <!-- Kemudian menambahkan atribut nilai dan berikan "0". atribut niali ini adalah nilai yang akan ditampilan di form input -->
+                <!-- Menambakan "disabled" ke tag input. fungsi atribut ini untuk melarang melakukan input angka menggunakan keyboard. Hal ini membantu
+                menjaga code menjadi ringkas dan mudah dimengerti -->
+            <div class="calculator-keys">
+                <div class="row"> <!-- menambahkan tag <div> dengan class "row" dan 3 tag <button> untuk row pertama di dalam kelas row. 
+                    Hal ini bertujuan untuk mengelompokkan button AC, % dan / -->
+                    <button class="all-clear">AC</button>
+                    <button class="percentange">%</button>
+                    <button class="operator" value="/">&divide;</button>
+                </div>
+                <div class="row"> <!-- menambahkan tag <div> dengan class "row" dan 4 tag <button> untuk row pertama di dalam kelas row. 
+                    Hal ini bertujuan untuk mengelompokkan number dan operator * dalam kalkulator -->
+                    <button class="number" value="7">7</button>
+                    <button class="number" value="8">8</button>
+                    <button class="number" value="9">9</button>
+                    <button class="operator" value="*">&times;</button>
+                </div>
+                <div class="row"> <!-- menambahkan tag <div> dengan class "row" dan 4 tag <button> untuk row pertama di dalam kelas row. 
+                    Hal ini bertujuan untuk mengelompokkan number dan operator - dalam kalkulator -->
+                    <button class="number" value="4">4</button>
+                    <button class="number" value="5">5</button>
+                    <button class="number" value="6">6</button>
+                    <button class="operator" value="-">-</button>
+                </div>
+                <div class="row"> <!-- menambahkan tag <div> dengan class "row" dan 4 tag <button> untuk row pertama di dalam kelas row. 
+                    Hal ini bertujuan untuk mengelompokkan number dan operator + dalam kalkulator -->
+                    <button class="number" value="1">1</button>
+                    <button class="number" value="2">2</button>
+                    <button class="number" value="3">3</button>
+                    <button class="operator" value="+">+</button>
+                </div>
+                <div class="row"> <!-- menambahkan tag <div> dengan class "row" dan 4 tag <button> untuk row pertama di dalam kelas row. 
+                    Hal ini bertujuan untuk mengelompokkan number 0, decimal dan equal-sign(=) dalam kalkulator -->
+                    <button class="number zero-btn" value="0">0</button>
+                    <button class="decimal" value=".">.</button>
+                    <button class="equal-sign">=</button>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script> <!-- Menghubungkan file HTML dengan file JavaScript -->
+    </body>
+</html>

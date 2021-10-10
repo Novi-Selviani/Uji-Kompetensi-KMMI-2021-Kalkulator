@@ -1,0 +1,54 @@
+.calculator { /* Menambahakan code CSS ke class calculator untuk mensejajarkan ke tengah */
+    text-align: center; /* berfungsi untuk mengatur button pada kalkulator menjadi rata tengah*/
+    margin: 0; /* berfungsi untuk mengaplikasikan jarak tepi pada sebuah elemen bagian luar*/
+    padding-top: 200px; /* berfungsi untuk memberi ruang space pada kalkulator*/
+    width : 400px; /* berfungsi untuk mengatur lebar pada kalkulator*/
+}
+
+.calculator-screen { /* Menambahakan code CSS ke class calculator-screen untuk mengubah tampilan layar kalkulator*/
+    width: 100%; /* berfungsi untuk mengatur lebar pada kalkulator screen */
+    height: 100px; /* berfungsi untuk mengatur jarak pada kalkulator screen*/
+    background-color: #252525; /* berfungsi untuk mengatur warna pada latar belakang kalkulator */
+    color: #fff; /* berfungsi untuk mengatur warna pada tulisan (button) pada kalkulator */
+    text-align: right; /* berfungsi untuk mengatur perataan button pada kalkulator*/
+    font-size: 36px; /* berfungsi untuk mengatur ukuran dari font pada kalkulator screen */
+    border: none; /* berfungsi untuk membuat garis tepi pada kalkulator*/
+    padding: 0 20px; /* berfungsi untuk memberi ruang space pada kalkulator*/
+    box-sizing: border-box; /* berfungsi untuk merubah kalkulasi dalam mengukur lebar antar elemen pada kalkulator*/
+}
+
+.calculator-keys{ /* Menambahakan code CSS ke class calculator-keys*/
+    width: 100%; /* berfungsi untuk mengatur lebar pada kalkulator keys */
+}
+
+.row{ /* Menambahakan code CSS ke class row*/
+    display: flex; /* berfungsi untuk mengatur tampilan button pada kalculator*/
+}
+
+button{ /* Menambahakan code CSS ke button*/
+    height: 80px; /* berfungsi untuk mengatur jarak button pada kalkulator */
+    background-color: gray; /* berfungsi untuk mengatur warna pada latar belakang button */
+    border: 1px solid black; /* berfungsi untuk membuat garis tepi pada button dengan warna hitam*/
+    font-size: 32px; /* berfungsi untuk mengatur ukuran dari font pada button*/
+    color: #fff; /* berfungsi untuk mengatur warna pada tulisan (button) pada kalkulator */
+    width: 25%; /* berfungsi untuk mengatur lebar pada button */
+    outline: none; /* berfungsi untuk membuat button agar terlihat lebih menonjol */
+}
+
+.all-clear, .zero-btn{ /* Menambahakan code CSS ke all-clear, .zero-btn*/
+    width: 50%; /* berfungsi untuk mengatur lebar pada all-clear, .zero-btn*/
+}
+
+.operator, .equal-sign { /* Menambahakan code CSS ke operator dan equal-sign*/
+    background-color: orange; /* berfungsi untuk mengatur warna pada latar belakang operator (=,+,-,x,/) */
+}
+
+button:hover { /* Menambahakan code CSS ke button:hover. hover adalah suatu fungsi yang hanya berjalan apabila kursor berada di 
+    atas suatu objek*/
+    background-color: darkgray; /* berfungsi untuk mengatur warna pada latar belakang button:hover */
+}
+
+.operator:hover, .equal-sign:hover{ /* Menambahakan code CSS ke operator:hover dan equal-sign:hover. hover adalah suatu fungsi yang hanya berjalan apabila kursor berada di 
+    atas suatu objek*/
+    background-color: darkorange; /* berfungsi untuk mengatur warna pada latar belakang operator:hover danequal-sign:hover*/
+}
